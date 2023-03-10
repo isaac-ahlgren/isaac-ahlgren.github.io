@@ -2,122 +2,27 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# About
+A first year masters student and a prospective PhD student interested in designing and implementing ***resource constrained computing systems***, ***security & privacy***, and ***signal processing***.
 
-[Link to another page](./another-page.html).
+# Education
 
-There should be whitespace between paragraphs.
+### Bachelor's Degree in Computer Science, January 2023, Loyola University Chicago
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+### Master's Degree in Computer Science, TBD, Loyola University Chicago
 
-# Header 1
+# Projects
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+- *Trevor*
+  - Typically, within zero involvement pairing and authentication (ZIPA) systems, environmental signals must be synchronized before key generation takes place. This is usually done through the use of a synchronization buffer. Synchronization buffers contain samples that will not be used in key generation but are sent over an unsecured channel to be used in a synchronization process with other devices. This sharing of a synchronization buffer between devices poses a security risk as it divulges information about signal being used in the key generation process. Furthermore, it also poses a performance issue as well since the sharing of the synchronization buffer slows down the key generation significantly. With *Trevor*, we seek to eliminate the need for synchronization buffers by generating keys through time resistant feature in the environmental signal.
+- *Usermode Containerization*
+  - Containers like Docker need root privilege when starting a container regardless if the container will be run completely in usermode or not. Adversaries have used this temporary period of time to perform what is known as container escapes. A container escape is when a malicious process is able to break out during the start up phase of container creation and maintain full root privilege. To avoid this, the *Usermode Containerization* project seeks to create an alternative container to typical containers that runs completely in usermode. Hence, adversaries are unable to take advantage of container escapes.
 
-## Header 2
+# Publications
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+*   J. Veselsky, Jack West, *Isaac Ahlgren* et al, ["Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach,"](https://ieeexplore.ieee.org/abstract/document/9805359) 2022 2nd Workshop on Data-Driven and Intelligent Cyber-Physical Systems for Smart Cities Workshop (DI-CPS), Milan, Italy, 2022, pp. 7-13, doi: 10.1109/DI-CPS56137.2022.00008.
 
-### Header 3
+# Posters
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+*   *Isaac Ahlgren*, Victor Rakotondranoro, Yasin N. Silva, Eric Chan-Tin, George K. Thiruvathukal, and Neil Klingensmith. 2023. Userland Containers for Mobile Systems. In Proceedings of the 24th International Workshop on Mobile Computing Systems and Applications (HotMobile '23). Association for Computing Machinery, New York, NY, USA, 141. [https://doi.org/10.1145/3572864.3581588](https://doi.org/10.1145/3572864.3581588)
+*   *Isaac Ahlgren*, Jack West, George K. Thiruvathukal, and Neil Klingensmith. 2022. A universally composable bit generation scheme for zero involvement authentication. In Proceedings of the 23rd Annual International Workshop on Mobile Computing Systems and Applications (HotMobile '22). Association for Computing Machinery, New York, NY, USA, 129. [https://doi.org/10.1145/3508396.3517076](https://doi.org/10.1145/3508396.3517076)
