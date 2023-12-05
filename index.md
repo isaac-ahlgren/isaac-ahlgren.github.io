@@ -6,7 +6,7 @@ layout: default
 ## [LinkedIn](https://www.linkedin.com/in/isaac-ahlgren123/) [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=dZawE3MAAAAJ) [Github](https://github.com/isaac-ahlgren) iahlgren@luc.edu
 
 # About
-A first year masters student and a prospective PhD student interested in designing and implementing ***resource constrained computing systems***, ***security & privacy***, and ***signal processing***.
+A first year masters student and a prospective PhD student interested in ***Security & Privacy***, ***Applied Cryptography***, ***Embedded Systems***, and ***Computer Architecture***.
 
 # Education
 
