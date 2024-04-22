@@ -55,12 +55,9 @@ params:
   showInAccordion:
     - item: aboutme
       expand: true
-    - item: experience
     - item: education
     - item: publication
-    - item: project
-    - item: skill
-    - item: hobby
+    - item: experience
   aboutme:
     title: About Me
     icon: fas fa-user
@@ -70,36 +67,26 @@ params:
 
       My research interests broadly revolve around privacy and security for software and systems. Particularly, I am interested in the security and privacy of embedded systems, Internet of Things, Cyber-Physical systems, and hardware.
       My work currently has to do with developing scalable authentication systems for IoT devices.
-  experience:
-    title: Experiences
-    icon: fas fa-briefcase
-    list:
-      - position: Graduate Research Assistant
-        dates: 2023 - *Present*
-        company: Loyola University Chicago
-        details: |1-
-          - Lead graduate student in the Software and Systems Laboratory who lead and mentored four students on a large scale project. The mentorship was awarded with the Graduate Research Mentorship Award.
-          - Developed a cluster of research IoT authentication systems using custom PCBs and Raspberry Pis connected to a variety of sensors. Software was written in Python and C where each system uses Avahi, OpenVPN, and Ansible to automatically set up communication between devices.
-          - Worked within the Linux kernel to research virtualization techniques for mitigating container escape security vulnerabilities in technologies like Docker.
-          - Worked with ESP32 and NORA-B1 microcontrollers to modify or implement wireless communication protocols like WiFi or Bluetooth.
-          - Helped instruct Computer Systems and Operating Systems classes.
-      - position: Embedded Software Engineer Inter
-        dates: May 2021 - August 2021
-        company: Motorola Solutions
-        details: |1-
-          - Researched and modeled an radio frequency anomaly detection algorithm in Python.
-          - Developed anomaly detection system with a software-defined radio.
-          - Thoroughly documented approaches to the algorithm as well as future possible approaches to the algorithm.
-  education:
-    title: Education
     icon: fas fa-graduation-cap
     list:
       - degree: MS in Computer Science
         college: Loyola University Chicago
-        dates: 2023 - Present
+        dates: 2023 - *Present*
       - degree: B.S. in Computer Science
         college: Loyola University Chicago
         dates: 2019 - 2023
+#  education:
+#    title: Education
+#    icon: fas fa-graduation-cap
+#    list:
+#      - degree: MS in Computer Science
+#        college: Loyola University Chicago
+#        dates: 2023 - *Present*
+#      - degree: B.S. in Computer Science
+#        college: Loyola University Chicago
+#        dates: 2019 - 2023
+  interests:
+    title: Interests
   publication:
     title: Publications
     icon: fas fa-book
@@ -136,3 +123,23 @@ params:
         journal: "Journal of Field 52 (16), 9033-9044"
         url: "#"
         type: Proceedings
+  experience:
+    title: Experiences
+    icon: fas fa-briefcase
+    list:
+      - position: Graduate Research Assistant
+        dates: 2023 - *Present*
+        company: Loyola University Chicago
+        details: |1-
+          - Lead graduate student in the Software and Systems Laboratory who mentored four students on a large scale project. The mentorship was awarded with the Graduate Research Mentorship Award.
+          - Developed a cluster of research IoT authentication systems using custom PCBs and Raspberry Pis connected to a variety of sensors. Software was written in Python and C where each system uses Avahi, OpenVPN, and Ansible to automatically set up communication between devices.
+          - Worked within the Linux kernel to research virtualization techniques for mitigating container escape security vulnerabilities in technologies like Docker.
+          - Worked with ESP32 and NORA-B1 microcontrollers to modify wireless communication protocols like WiFi or Bluetooth.
+          - Helped instruct Computer Systems and Operating Systems classes.
+      - position: Embedded Software Engineer Intern
+        dates: May 2021 - August 2021
+        company: Motorola Solutions
+        details: |1-
+          - Researched and modeled an radio frequency anomaly detection algorithm in Python.
+          - Developed anomaly detection system with a software-defined radio.
+          - Thoroughly documented approaches to the algorithm as well as future possible approaches to the algorithm.
