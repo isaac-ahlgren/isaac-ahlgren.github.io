@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: npx install
-        run: npm install -g npx
-
       - name: Checkout code
         uses: actions/checkout@v2
 
