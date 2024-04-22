@@ -1,5 +1,10 @@
 <p class="markdownify">
   {{ .Site.Params.aboutme.description | markdownify }}
-  {{ range .Site.Params.aboutme.list }}
-  {{ end }}
 </p>
+
+{{ range .Site.Params.aboutme.list }}
+<h4 style="text-decoration: underline;">{{ .degree }}</h4>
+<p {{ if .thesis_title }}class="mb-0" {{ end }}>
+  {{- .dates }} &middot; {{ .college -}}
+</p>
+{{ end }}
