@@ -11,12 +11,8 @@ jobs:
 
     steps:
       - name: Install Node.js dependencies
-        run: |
-        [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
-        sudo npm install -g postcss-cli
-        sudo npm install -g npx --force
-        npm install tailwindcss@latest
-        
+        run: npm install
+
       - name: Checkout code
         uses: actions/checkout@v2
 
