@@ -24,34 +24,34 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Isaac Ahlgren"
+    tagline: Graduate Student
+    location: "Loyola University Chicago"
     photo: profile.jpg
   social:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://www.linkedin.com/in/isaac-ahlgren123/"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
+      #- icon: fab fa-stack-overflow
+      #  url: "#"
+      #  title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/isaac-ahlgren"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
+      #- icon: fab fa-twitter
+      #  url: "#"
+      #  title: Twitter
+      #- icon: fab fa-orcid
+      #  url: "#"
+      #  title: Orcid
       - icon: ai ai-google-scholar
-        url: "#"
+        url: "https://scholar.google.com/citations?user=dZawE3MAAAAJ&hl=en"
         title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
+      #- icon: fab fa-researchgate
+      #  url: "#"
+      #  title: ResearchGate
   showInAccordion:
     - item: aboutme
       expand: true
@@ -64,40 +64,42 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: |
+      I am a lead graduate student for the Software and Systems Laboratory (SSL) at Loyola University Chicago.
+      Currently finishing up a Masters in Computer Science at Loyola University Chicago and looking to apply to PhD schools in the upcoming cycle. 
+
+      My research interests broadly revolve around privacy and security for software and systems. Particularly, I am interested in the security and privacy of embedded systems, Internet of Things, Cyber-Physical systems, and hardware.
+      My work currently has to do with developing scalable authentication systems for IoT devices.
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: Graduate Research Assistant
+        dates: 2023 - *Present*
+        company: Loyola University Chicago
         details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+          - Lead graduate student in the Software and Systems Laboratory who lead and mentored four students on a large scale project. The mentorship was awarded with the Graduate Research Mentorship Award.
+          - Developed a cluster of research IoT authentication systems using custom PCBs and Raspberry Pis connected to a variety of sensors. Software was written in Python and C where each system uses Avahi, OpenVPN, and Ansible to automatically set up communication between devices.
+          - Worked within the Linux kernel to research virtualization techniques for mitigating container escape security vulnerabilities in technologies like Docker.
+          - Worked with ESP32 and NORA-B1 microcontrollers to modify or implement wireless communication protocols like WiFi or Bluetooth.
+          - Helped instruct Computer Systems and Operating Systems classes.
+      - position: Embedded Software Engineer Inter
+        dates: May 2021 - August 2021
+        company: Motorola Solutions
+        details: |1-
+          - Researched and modeled an radio frequency anomaly detection algorithm in Python.
+          - Developed anomaly detection system with a software-defined radio.
+          - Thoroughly documented approaches to the algorithm as well as future possible approaches to the algorithm.
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
+      - degree: MS in Computer Science
+        college: Loyola University Chicago
+        dates: 2023 - Present
+      - degree: B.S. in Computer Science
+        college: Loyola University Chicago
+        dates: 2019 - 2023
   publication:
     title: Publications
     icon: fas fa-book
@@ -134,37 +136,3 @@ params:
         journal: "Journal of Field 52 (16), 9033-9044"
         url: "#"
         type: Proceedings
-  project:
-    title: Projects
-    icon: fas fa-project-diagram
-    list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
-  skill:
-    title: Skills
-    panelId: skill-panel
-    icon: fas fa-cogs
-    list:
-      - skill: "Skill 1, Skill 2"
-        skillrating: 90
-      - skill: Skill 3
-        skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
-  hobby:
-    title: Hobbies
-    icon: fas fa-gamepad
-    list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
