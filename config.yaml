@@ -55,7 +55,6 @@ params:
   showInAccordion:
     - item: aboutme
       expand: true
-    - item: education
     - item: publication
     - item: experience
   aboutme:
