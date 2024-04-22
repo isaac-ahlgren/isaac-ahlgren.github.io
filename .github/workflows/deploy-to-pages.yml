@@ -10,11 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install Node.js dependencies
-        run: ls
 
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
