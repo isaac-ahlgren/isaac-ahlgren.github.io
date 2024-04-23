@@ -78,38 +78,39 @@ params:
     title: Publications
     icon: fas fa-book
     format:
-      - date
       - title
       - authors
       - journal
+      - date
     types:
       - Journal Articles
       - Proceedings
     list:
       - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
+          A Signal Injection Attack Against Zero Involvement Pairing and Authentication for the Internet of Things 
+        authors: "Isaac Ahlgren, Jack West, Kyuin Lee, George Thiruvathukal, and Neil Klingensmith"
+        date: "2024"
+        journal: "Workshop On Design Automation For CPS and IoT (DESTION 2024)"
         url: "#"
-        type: Journal Articles
       - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
+          ”Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach 
+        authors: "J. Veselsky, J West, Isaac Ahlgren, et a"
+        date: "2022"
+        journal: "Workshop on Data-Driven and Intelligent Cyber-Physical Systems for Smart Cities Workshop (DI-CPS)"
+        url: "https://doi.org/10.1145/3508396.3517075"
       - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
+          Poster: Userland Containers for Mobile Systems
+        authors: "Isaac Ahlgren, Victor Rakotondranoro, Yasin N. Silva, Eric Chan-Tin, George K. Thiruvathukal,
+and Neil Klingensmith"
+        date: "2023"
+        journal: "Workshop on Mobile Computing Systems and Applications (HotMobile)"
+        url: "https://doi.org/10.1145/3572864.3581588"
+      - title: >-
+          Poster: A universally composable bit generation scheme for zero involvement authentication
+        authors: "Isaac Ahlgren, Jack West, George K. Thiruvathukal, and Neil Klingensmith"
+        date: "2022"
+        journal: "Workshop on Mobile Computing Systems and Applications (HotMobile)"
+        url: "https://doi.org/10.1145/3508396.3517076"
   experience:
     title: Experiences
     icon: fas fa-briefcase
