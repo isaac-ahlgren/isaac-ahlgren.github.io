@@ -73,11 +73,6 @@ params:
       - degree: B.S. in Computer Science
         college: Loyola University Chicago
         dates: 2019 - 2023
-    interest_list:
-      - item: Security & Privacy
-      - item: Embedded Systems
-      - item: Internet of Things/Cyber-Physical Systems
-      - item: Hardware Security
   publication:
     title: Publications
     icon: fas fa-book
