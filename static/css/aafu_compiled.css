@@ -1417,11 +1417,3 @@ blockquote {
     grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
   }
 }
-
-.col-6 {
-  display: flex
-}
-
-.col-6 div {
-  flex: 0 0 50%;
-}

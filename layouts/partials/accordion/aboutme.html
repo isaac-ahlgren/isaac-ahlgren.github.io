@@ -2,23 +2,16 @@
   {{ .Site.Params.aboutme.description | markdownify }}
 </p>
 
-<div class="container">
-  <div class="row">
-    <div class="col-6">
-      {{ range .Site.Params.aboutme.edu_list }}
-      <h4 style="text-decoration: underline;">{{ .degree }}</h4>
-      <p {{ if .thesis_title }}class="mb-0" {{ end }}>
-        {{- .dates }} &middot; {{ .college -}}
-      </p>
-      {{ end }}
-    </div>
-    <div class="col-6">
-      {{ range .Site.Params.aboutme.interest_list }}
-      <h4 style="text-decoration: underline;">{{ .degree }}</h4>
-      <p class="mb-0">
-        &middot; {{ .item}}
-      </p>
-      {{ end }}
-    </div>
-  </div>
-</div>
+{{ range .Site.Params.aboutme.edu_list }}
+<h4 style="text-decoration: underline;">{{ .degree }}</h4>
+<p {{ if .thesis_title }}class="mb-0" {{ end }}>
+{{- .dates }} &middot; {{ .college -}}
+</p>
+{{ end }}
+    
+{{ range .Site.Params.aboutme.interest_list }}
+<h4 style="text-decoration: underline;">{{ .degree }}</h4>
+<p class="mb-0">
+&middot; {{ .item}}
+</p>
+{{ end }}
