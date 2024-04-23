@@ -64,12 +64,12 @@ params:
       I am a lead graduate student for the Software and Systems Laboratory (SSL) at Loyola University Chicago.
       Currently finishing up a Masters in Computer Science at Loyola University Chicago and looking to apply to PhD schools in the upcoming cycle. 
 
-      My research interests broadly revolve around privacy and security for software and systems. Particularly, I am interested in the security and privacy of embedded systems, Internet of Things, Cyber-Physical systems, and hardware.
+      My research interests have broadly revolved around privacy and security for software and systems. But, I am particularly interested in the **security and privacy of embedded systems, Internet of Things, Cyber-Physical systems, and hardware security**.
       My work currently has to do with developing scalable authentication systems for IoT devices.
     edu_list:
       - degree: MS in Computer Science
         college: Loyola University Chicago
-        dates: 2023 - *Present*
+        dates: 2023 - Present
       - degree: B.S. in Computer Science
         college: Loyola University Chicago
         dates: 2019 - 2023
