@@ -1418,10 +1418,10 @@ blockquote {
   }
 }
 
-.col6 {
+.col-6 {
   display: flex
 }
 
-.col6 div {
+.col-6 div {
   flex: 0 0 50%;
 }
