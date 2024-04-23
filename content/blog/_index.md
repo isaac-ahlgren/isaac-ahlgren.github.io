@@ -1,4 +1,4 @@
 ---
-title: "aafu theme"
+title: "My Blog!"
 weight: 100
 ---

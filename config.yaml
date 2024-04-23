@@ -26,6 +26,7 @@ params:
   profile:
     name: "Isaac Ahlgren"
     tagline: Graduate Student
+    contact: iahlgren@luc.edu
     location: "Loyola University Chicago"
     photo: profile.jpg
   social:
