@@ -1419,7 +1419,7 @@ blockquote {
 }
 
 @media (min-width: 768px) {
-  .col-md-5 {
+  .col-md-0 {
     flex: 0 0 41.66666667%;
     max-width: 41.66666667%;
   }

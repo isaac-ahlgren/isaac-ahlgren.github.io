@@ -66,25 +66,18 @@ params:
 
       My research interests broadly revolve around privacy and security for software and systems. Particularly, I am interested in the security and privacy of embedded systems, Internet of Things, Cyber-Physical systems, and hardware.
       My work currently has to do with developing scalable authentication systems for IoT devices.
-    list:
+    edu_list:
       - degree: MS in Computer Science
         college: Loyola University Chicago
         dates: 2023 - *Present*
       - degree: B.S. in Computer Science
         college: Loyola University Chicago
         dates: 2019 - 2023
-#  education:
-#    title: Education
-#    icon: fas fa-graduation-cap
-#    list:
-#      - degree: MS in Computer Science
-#        college: Loyola University Chicago
-#        dates: 2023 - *Present*
-#      - degree: B.S. in Computer Science
-#        college: Loyola University Chicago
-#        dates: 2019 - 2023
-  interests:
-    title: Interests
+    interest_list:
+      - item: Security & Privacy
+      - item: Embedded Systems
+      - item: Internet of Things/Cyber-Physical Systems
+      - item: Hardware Security
   publication:
     title: Publications
     icon: fas fa-book
