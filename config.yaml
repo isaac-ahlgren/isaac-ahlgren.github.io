@@ -71,7 +71,7 @@ params:
       - degree: MS in Computer Science
         college: Loyola University Chicago
         dates: 2023 - Present
-      - degree: B.S. in Computer Science
+      - degree: BS in Computer Science
         college: Loyola University Chicago
         dates: 2019 - 2023
   publication:
@@ -93,7 +93,7 @@ params:
         journal: "Workshop On Design Automation For CPS and IoT (DESTION 2024)"
         url: "#"
       - title: >-
-          ”Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach 
+          Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach 
         authors: "J. Veselsky, J West, Isaac Ahlgren, et a"
         date: "2022"
         journal: "Workshop on Data-Driven and Intelligent Cyber-Physical Systems for Smart Cities Workshop (DI-CPS)"
