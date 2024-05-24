@@ -120,6 +120,7 @@ and Neil Klingensmith"
         company: Loyola University Chicago
         details: |1-
           - Lead graduate student in the Software and Systems Laboratory who mentored four students on a large scale project. The mentorship was awarded with the Graduate Research Mentorship Award.
+          - Developed novel authentication protocol for IoT devices.
           - Developed a cluster of research IoT authentication systems using custom PCBs and Raspberry Pis connected to a variety of sensors. Software was written in Python and C where each system uses Avahi, OpenVPN, and Ansible to automatically set up communication between devices.
           - Worked within the Linux kernel to research virtualization techniques for mitigating container escape security vulnerabilities in technologies like Docker.
           - Worked with ESP32 and NORA-B1 microcontrollers to modify wireless communication protocols like WiFi or Bluetooth.
